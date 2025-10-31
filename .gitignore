@@ -1,0 +1,66 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*.local
+.env.local
+
+# Vite / build outputs
+dist/
+build/
+.vite/
+/frontend/dist/
+/frontend/build/
+
+# Backend build / logs
+/backend/dist/
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors/IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Windows image file caches
+ehthumbs.db
+
+# Misc
+coverage/
+*.tgz
+*.zip
+
+# Public build artifacts
+/public/build/
+
+# Project folders (explicit)
+/frontend/node_modules/
+/backend/node_modules/
+
+# local npm cache
+.pnpm-store/
+
+# Others
+/frontend/.env
+/backend/.env
+*.env
+.env.example
+
+# Ignore generated telemetry
+.vite/
+
+# If you add any local secrets or credentials files, add them here
+secrets.local
+

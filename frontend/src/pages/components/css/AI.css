@@ -1,0 +1,19 @@
+.ai-section {
+  margin-top: 60px; /* same as RecommendedProducts */
+  margin-bottom: 80px;
+}
+
+.ai-section h4 {
+  font-size: 1.6rem;
+  margin-bottom: 0.3rem; /* reduced gap between h4 and p */
+}
+
+.ai-section p {
+  margin-top: 0;
+  font-size: 1rem;
+  color: #666;
+}
+
+.row {
+  margin-top: 1.5rem;
+}
