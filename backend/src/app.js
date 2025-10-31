@@ -26,9 +26,14 @@ const app = express();
 
 // --- Core Middleware ---
 app.use(cors({
-  origin: "http://localhost:5173", // your frontend URL
-  credentials: true
+  origin: [
+    "http://localhost:5173",                    // your local frontend (Vite)
+    "https://product-recomendation-system.vercel.app" // your deployed frontend on Vercel
+  ],
+  methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
+  credentials: true, // allow cookies / tokens
 }));
+
 app.use(express.json()); // Parse JSON body
 app.use(morgan("dev")); // Logger for development
 app.use(helmet()); // Basic security headers
