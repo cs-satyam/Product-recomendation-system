@@ -10,7 +10,7 @@ const ChatBot = () => {
   const [isLoading, setIsLoading] = useState(false);
   const messagesEndRef = useRef(null);
   const messagesContainerRef = useRef(null);
-  const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:5000';
+  const API_BASE = import.meta.env.VITE_API_BASE || 'https://product-recomendation-system.onrender.com';
   const token = typeof window !== 'undefined' ? localStorage.getItem('authToken') : '';
 
   const handleToggleChat = () => setIsOpen(!isOpen);

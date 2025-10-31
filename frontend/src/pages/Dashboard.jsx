@@ -30,7 +30,7 @@ const StatCard = ({ icon, label, value, trend }) => (
   </div>
 );
 
-const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:5000';
+const API_BASE = import.meta.env.VITE_API_BASE || 'https://product-recomendation-system.onrender.com';
 
 function Dashboard() {
   const token = typeof window !== 'undefined' ? localStorage.getItem('authToken') : '';

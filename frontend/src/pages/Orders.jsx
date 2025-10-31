@@ -6,7 +6,7 @@ import Sidebar from './components/layout/Sidebar';
 import './components/css/Dashboard.css'; // Main dashboard layout
 import './components/css/Orders.css'; // Specific styles for the Orders page
 
-const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:5000';
+const API_BASE = import.meta.env.VITE_API_BASE || 'https://product-recomendation-system.onrender.com';
 
 function Orders() {
   const [orders, setOrders] = useState([]);

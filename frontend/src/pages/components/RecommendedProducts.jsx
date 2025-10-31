@@ -5,7 +5,7 @@ import axios from 'axios'
 
 const RecommendedProducts = () => {
 
-  const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:5000';
+  const API_BASE = import.meta.env.VITE_API_BASE || 'https://product-recomendation-system.onrender.com';
   const [recommendedItems, setRecommendedItems] = useState([]);
   const [loading, setLoading] = useState(true);
   const token = typeof window !== 'undefined' ? localStorage.getItem('authToken') : '';

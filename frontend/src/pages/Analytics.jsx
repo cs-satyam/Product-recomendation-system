@@ -5,7 +5,7 @@ import Sidebar from './components/layout/Sidebar';
 import './components/css/Dashboard.css';
 import './components/css/Analytics.css'; 
 
-const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:5000';
+const API_BASE = import.meta.env.VITE_API_BASE || 'https://product-recomendation-system.onrender.com';
 
 // No changes to the KPI component
 function KPI({ title, value, delta, icon, color }) {

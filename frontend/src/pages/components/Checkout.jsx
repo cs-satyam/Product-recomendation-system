@@ -7,7 +7,7 @@ import TopNav from './layout/TopNav';
 import Sidebar from './layout/Sidebar';
 import './css/Checkout.css'; // ✅ new CSS file
 
-const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:5000';
+const API_BASE = import.meta.env.VITE_API_BASE || 'https://product-recomendation-system.onrender.com';
 
 const Checkout = () => {
   const navigate = useNavigate();

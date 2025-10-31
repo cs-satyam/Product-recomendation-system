@@ -8,7 +8,7 @@ import { useCart } from "../context/CartContext.jsx";
 import { useToast } from "../context/ToastContext.jsx";
 import "./components/css/Dashboard.css";
 
-const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:5000";
+const API_BASE = import.meta.env.VITE_API_BASE || "https://product-recomendation-system.onrender.com";
 
 function MyMarket() {
   const [products, setProducts] = useState([]);

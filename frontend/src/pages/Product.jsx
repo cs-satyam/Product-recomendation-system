@@ -9,7 +9,7 @@ import { useToast } from '../context/ToastContext.jsx';
 import './components/css/Dashboard.css'; // Keep the existing layout CSS
 import './components/css/Product.css'; // Add a new CSS file for product-specific styles
 
-const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:5000';
+const API_BASE = import.meta.env.VITE_API_BASE || 'https://product-recomendation-system.onrender.com';
 
 function Product() {
   const [products, setProducts] = useState([]);

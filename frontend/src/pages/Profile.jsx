@@ -7,7 +7,7 @@ import Sidebar from './components/layout/Sidebar.jsx';
 import './components/css/Dashboard.css';
 
 function Profile() {
-  const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:5000';
+  const API_BASE = import.meta.env.VITE_API_BASE || 'https://product-recomendation-system.onrender.com';
   const navigate = useNavigate();
   const { show } = useToast();
   const [upgrading, setUpgrading] = useState(false);

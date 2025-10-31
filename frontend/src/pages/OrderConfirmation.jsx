@@ -4,7 +4,7 @@ import axios from 'axios';
 import TopNav from './components/layout/TopNav';
 import Sidebar from './components/layout/Sidebar';
 
-const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:5000';
+const API_BASE = import.meta.env.VITE_API_BASE || 'https://product-recomendation-system.onrender.com';
 
 const OrderConfirmation = () => {
   const { id } = useParams();
