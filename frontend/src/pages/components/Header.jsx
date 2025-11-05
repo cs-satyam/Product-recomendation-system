@@ -27,6 +27,7 @@ const Header = ({ onOpenAuth }) => {
           <i className="bi bi-lightning-charge-fill me-2"></i>
           <span className="brand-text">Qwipo</span>
           <span className="brand-accent">Recommends</span>
+          <span className="brand-accent">System</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="custom-toggler" />
         <Navbar.Collapse id="basic-navbar-nav">
