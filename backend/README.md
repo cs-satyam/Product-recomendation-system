@@ -313,4 +313,4 @@ This project is licensed under the ISC License.
 
 ## 📞 Support
 
-For support, email support@bytxl.com or create an issue in the repository.
+For support, email satyamwork4464@gmail.com or create an issue in the repository.
